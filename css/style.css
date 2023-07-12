@@ -1,0 +1,213 @@
+body {
+    font-family: "Montserrat", Sans-serif;
+}
+
+.navbar-brand {
+    margin-left: 3.5rem;
+}
+
+#nav-bar {
+    padding: 20px 0px 20px 0px;
+}
+
+.content {
+    background-image: url(../images/Data-Access-Auditor.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+
+.overlay-div {
+    min-height: 80vh;
+    background-color: transparent;
+    background-image: linear-gradient(148deg, #FFCD02 0%, #0000FF 100%);
+    opacity: 0.89;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-widget-container h2 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.elementor-widget-container {
+    /* transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s); */
+    top: 20%;
+    position: absolute;
+    padding: 10px;
+    margin: 40px 40px 40px 0;
+    color: #fff;
+    font-family: "Montserrat", Sans-serif;
+}
+
+.tryfree-btn {
+    padding: 10px 25px 10px 25px;
+    background: #102a83;
+    width: 20%;
+    border-radius: 25px;
+}
+
+/* .feature,
+.generator,
+.help {
+    padding: 50px 0 20px 0;
+    color: #102a83;
+} */
+
+.feature .container h2,
+.usecases .container h2,
+.checklist .container h2,
+.requires .container h2 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #102a83;
+    letter-spacing: 3px;
+}
+
+.feature,
+.checklist {
+    background-color: #F2F2F2;
+    padding: 50px 0 50px 0;
+}
+
+.usecases,
+.requires {
+    padding: 50px 0 50px 0;
+    font-size: 17px;
+}
+
+.fa.fa-check-circle,
+.fa.fa-minus {
+    font-size: 30px;
+    color: #102a83;
+    margin-right: 15px;
+}
+
+.col-md-6 p {
+    display: flex;
+}
+
+.checklist-ul {
+    list-style-type: none;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.checklist-ul li .checklist-sub-ul {
+    margin-left: 3%;
+}
+
+.checklist-ul li .checklist-sub-ul li::marker,
+.feature-ul li::marker {
+    color: #102a83;
+    font-size: 23px;
+}
+
+/* .checklist-ul li::before {
+    content: "\f192";
+    padding: 0 10px 0 0;
+} */
+.fa.fa-chevron-circle-right {
+    font-size: 20px;
+    margin-right: 11px;
+    color: #102a83;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333333;
+    height: 200px;
+}
+
+.img-email {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 3rem;
+}
+
+footer .useful ul {
+    list-style-type: none;
+}
+
+.useful span a,
+.img-email a {
+    color: #fff;
+}
+
+.useful span a:hover,
+.img-email a:hover {
+    color: #ffcd02;
+}
+
+/* Animation */
+
+#drop-in {
+    animation: drop-in 1s ease 200ms backwards;
+}
+
+#drop-in-2 {
+    animation: drop-in 1200ms ease 500ms backwards;
+}
+
+@keyframes drop-in {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+@-webkit-keyframes moveUp {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes moveUp {
+    0% {
+        opacity: 1;
+        -moz-transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateY(0);
+    }
+}
+
+@-o-keyframes moveUp {
+    0% {
+        opacity: 1;
+        -o-transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes moveUp {
+    0% {
+        opacity: 1;
+        transform: translateY(40px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
