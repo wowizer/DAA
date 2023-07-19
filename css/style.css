@@ -44,8 +44,12 @@ body {
 .tryfree-btn {
     padding: 10px 25px 10px 25px;
     background: #102a83;
-    width: 20%;
+    /* width: 20%; */
     border-radius: 25px;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
 }
 
 /* .feature,
