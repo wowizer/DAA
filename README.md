@@ -1,6 +1,6 @@
 [![N|Solid](https://wowizer.com/wp-content/uploads/2023/03/Screenshot_29.png)](https://www.wowizer.com)
 
-[![N|Solid](https://www.qlik.com/us/-/media/images/qlik/global/qlik-logo-2x.png?h=46&w=175&rev=1167e952ae934867bc9ee7f3d4952e1f&hash=B177253007E4DAB0D9EE4D7DBE791569)](https://www.qlik.com/)_Client Managed_
+_Qlik Client Managed_
 
 ## Features
 
@@ -42,4 +42,3 @@ by WoWizer Team.
 
 ## License
 Wowizer
-
